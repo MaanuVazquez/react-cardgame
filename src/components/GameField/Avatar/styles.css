@@ -1,0 +1,10 @@
+.playerCard {
+    height: 375px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.playerCard img {
+    max-width: 100%;
+    
+}

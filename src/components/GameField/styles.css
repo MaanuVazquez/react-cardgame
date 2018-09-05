@@ -1,0 +1,20 @@
+.cards {
+    display: inline;
+}
+
+.stats {
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.enemyAvatar {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.playerAvatar {
+    display: inline-block;
+}

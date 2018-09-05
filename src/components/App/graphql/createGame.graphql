@@ -1,0 +1,28 @@
+mutation createGame($name: String!) {
+  createGame(input: {name: $name}) {
+    id
+    currentTurn
+    maxTurns
+    turnsLeft
+    player {
+      id
+      name
+      hp
+      maxHp
+      shield
+      cards {
+        id
+        value
+        effect
+      }
+    }
+    monster {
+      id
+      name
+      hp
+      maxHp
+      shield
+      image
+    }
+  }
+}
